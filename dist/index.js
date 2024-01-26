@@ -18,11 +18,18 @@ const myTool1 = 12345;
 const myTool2 = "keyboard";
 const myTool3 = true;
 const myTool4 = ["mouse", "laptop"];
+let panggil;
+panggil = {
+    nama: "qodier",
+    isTrue: true,
+    money: 50000
+};
 // console log
 console.log([{ myName },
     { myNumber },
     { isActive },
     { myArray },
     { myCar },
-    [myTool1, myTool2, myTool3, myTool4]
+    // [myTool1, myTool2, myTool3, myTool4],
+    { panggil }
 ]);

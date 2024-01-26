@@ -25,12 +25,27 @@ const myTool2:any = "keyboard"
 const myTool3:any = true
 const myTool4:any = ["mouse", "laptop"]
 
+// declare tipe data custom
+type customData = {
+    nama:string,
+    isTrue: boolean,
+    money: number
+}
+
+let panggil : customData 
+panggil = {
+    nama: "qodier",
+    isTrue: true,
+    money: 50000
+}
+
 // console log
 console.log([{myName},
     {myNumber},
     {isActive},
     {myArray},
     {myCar},
-    [myTool1, myTool2, myTool3, myTool4]
+    [myTool1, myTool2, myTool3, myTool4],
+    {panggil}
     ])
 
